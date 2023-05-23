@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import Navbar from './Layouts/Navbar';
+import Footer from './Layouts/Footer';
+
 import { BrowserRouter } from 'react-router-dom';
 
 
@@ -12,6 +14,7 @@ root.render(
     <BrowserRouter>
     <Navbar/>
     <App />
+    <Footer/>
     </BrowserRouter>
   
 
